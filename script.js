@@ -2,7 +2,7 @@
 const certificates = [
   {
     title: "Generative AI",
-    file: "GEN-AI.pdf",
+    file: "GEN-AI(1).pdf",
   },
   {
     title: "Python Programming",
@@ -10,7 +10,7 @@ const certificates = [
   },
   {
     title: "Hackathon",
-    file: "Hackathon.pdf",
+    file: "Hackathon(1).pdf",
   },
 ];
 
