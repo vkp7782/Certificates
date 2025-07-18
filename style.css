@@ -82,7 +82,6 @@ h1 {
   width: 260px;
   box-shadow: 0 10px 25px var(--card-shadow);
   transition: transform 0.3s, box-shadow 0.3s;
-  cursor: pointer;
   text-align: center;
 }
 
@@ -97,9 +96,26 @@ h1 {
   color: var(--text-color);
 }
 
-.card p {
-  font-size: 14px;
-  color: gray;
+.btn-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }
 
 .card:hover {
