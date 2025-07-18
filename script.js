@@ -11,6 +11,10 @@ const certificates = [
     title: "Hackathon",
     file: "Hackathon.pdf",
   },
+  {
+    title: "Data Structure",
+    file: "problem_solving_basic_certificate.pdf",
+  },
 ];
 
 const container = document.getElementById("certificate-container");
